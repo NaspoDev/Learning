@@ -1,0 +1,4 @@
+Not implementing this. It's meant for complex systems and also its basic programming,
+surprised it even counts as a design pattern.
+
+See the README.md for more information.
