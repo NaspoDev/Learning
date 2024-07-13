@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Launch">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <root id="archive" name="Launch.jar">
+      <element id="module-output" name="Launch" />
+    </root>
+  </artifact>
+</component>

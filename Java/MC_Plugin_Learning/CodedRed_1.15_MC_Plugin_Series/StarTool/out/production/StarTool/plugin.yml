@@ -1,0 +1,9 @@
+main: me.naspo.startool.Main
+name: StarTool
+version: 1.0
+author: Naspo
+api-version: 1.13
+description: Cool trident thing.
+
+commands:
+  startool:

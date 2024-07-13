@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48320691-9ba6-430f-a1f1-081508645ce0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AbstractLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractLearning/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresLearning/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresLearning/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FileIOLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FileIOLearning/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FileIOLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FileIOLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericsLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceLearning/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceLearning/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultiThreadingLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultiThreadingLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MultiThreadingLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/APIs/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/APIs/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/APIs/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/APIs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/APIs/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/CustomFiles/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/HashMapTut/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/HashMapTut/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/HashMapTut/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/HashMapTut/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Interfaces/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Interfaces/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Interfaces/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Interfaces/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/OurFirstGUI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/OurFirstGUI/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/OurFirstGUI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/OurFirstGUI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/OurFirstGUI/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Superman/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Superman/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Superman/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Old_Learning_Projects/Superman/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecordLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RecordLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionLearning/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/BinaryTreeLearning" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_Learning/BinaryTreeLearning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DesignPatterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DesignPatterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DesignPatterns/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DesignPatterns/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DesignPatterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/DoublyLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_Learning/DoublyLinkedList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/LambdasLearning/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/LambdasLearning/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/LambdasLearning/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/LambdasLearning/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/MergeLinkedLists/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/MergeLinkedLists/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/MergeLinkedLists/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Other_Learning/MergeLinkedLists/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching_Algorithm_Learning/BinarySearch/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching_Algorithm_Learning/BinarySearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching_Algorithm_Learning/BinarySearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Searching_Algorithm_Learning/BinarySearch/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/BubbleSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/BubbleSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/BubbleSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/InsertionSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/InsertionSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/InsertionSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/InsertionSort/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/QuickSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/QuickSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/QuickSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/QuickSort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/SelectionSort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/SelectionSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/SelectionSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sorting_Algorithm_Learning/SelectionSort/.idea/uiDesigner.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ey288gl8Ca98wlRbNERJMg0nZB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/atsub/IdeaProjects/Learning/Java_Learning/RecordLearning",
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48320691-9ba6-430f-a1f1-081508645ce0" name="Changes" comment="" />
+      <created>1712862336224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712862336224</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+main: me.naspo.discordlink.Main
+name: DiscordLink
+version: 1.0
+author: Naspo
+description: A simple discord link plugin.
+
+commands:
+  discord:
+    permission: discordlink.use

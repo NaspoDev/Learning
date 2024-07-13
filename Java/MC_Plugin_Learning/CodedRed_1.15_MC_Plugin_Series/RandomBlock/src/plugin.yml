@@ -1,0 +1,9 @@
+main: me.naspo.randomblock.Main
+name: RandomBlock
+author: Naspo
+version: 1.0
+api-version: 1.13
+description: Gives you a random block on block break!
+
+commands:
+  randomblock:

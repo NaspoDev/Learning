@@ -1,0 +1,19 @@
+messages:
+  reload: "&aRandomBlock has been reloaded!"
+  testmsg:
+    - "&aMessage 1"
+    - "&eMessage 2"
+
+blocks:
+  DIRT:
+    - DIAMOND
+    - GRASS
+    - STONE
+  IRON_BLOCK:
+    - SAND
+    - FLINT
+    - GLOD_INGOT
+  GRASS:
+    - IRON_INGOT
+    - STONE
+    - COBBLESTONE

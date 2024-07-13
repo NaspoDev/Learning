@@ -1,0 +1,8 @@
+main: me.naspo.doctor.Main
+name: Doctor
+version: 1.0
+author: Naspo
+description: Heal yourself!
+
+commands:
+  doctor:

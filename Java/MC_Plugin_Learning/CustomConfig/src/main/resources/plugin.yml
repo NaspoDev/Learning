@@ -1,0 +1,6 @@
+name: CustomConfig
+version: '${project.version}'
+main: me.naspo.customconfig.CustomConfig
+api-version: 1.18
+authors: [ Naspo ]
+description: Learning custom files and directories

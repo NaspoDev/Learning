@@ -1,0 +1,8 @@
+main: me.naspo.playerskull.Main
+name: PlayerSkull
+author: Naspo
+version: 1.0
+description: A simple playerskull plugin.
+
+commands:
+  skull:

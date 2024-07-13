@@ -1,0 +1,9 @@
+name: PrivateVault
+version: '${project.version}'
+main: me.naspo.privatevault.PrivateVault
+api-version: 1.18
+authors: [ Naspo ]
+description: PrivateVault plugin from the CodedRed 1.15 MC Plugin Tutorial Series
+
+commands:
+  pv:

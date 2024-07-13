@@ -1,0 +1,9 @@
+main: me.naspo.changeteam.Main
+name: ChangeTeam
+version: 1.0
+author: Naspo
+api-version: 1.13
+description: A minigame changeteam feature.
+
+commands:
+  changeteam:
