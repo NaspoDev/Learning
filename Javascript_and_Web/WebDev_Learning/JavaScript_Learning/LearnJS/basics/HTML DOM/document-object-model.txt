@@ -1,0 +1,2 @@
+How to actually interact with HTML doccuments: 
+https://www.w3schools.com/js/js_htmldom_document.asp

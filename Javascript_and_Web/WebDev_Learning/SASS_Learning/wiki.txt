@@ -1,0 +1,20 @@
+SASS - Syntactically Awesome Stylesheets
+SASS makes it much easier to write CSS.
+
+How does it work?
+- Sass gets compiled into CSS.
+
+Features:
+- Indentation to represent hierarchical structure. (Star Feature ⭐)
+- Better variables
+- Other stuff
+
+How to get started?
+- Simply create a .scss file and start writing.
+- Install Live Sass Compiler extension is VSCode.
+- To compile into css, simply click the "Watch Sass" button at the bottom of your toolbar.
+
+Other:
+- There exists a .sass filetyle. Dont use this. It rids the use of curly braces and relies on indentation,
+What this means though is that you cannot write plain css in this, you can only ever write sass.
+.scss is much more favoured. You can write regular css and take advantage of SASS whenever you want.

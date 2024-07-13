@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn About Forms in HTML</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Learn about forms in HTML -->
+
+    <!-- Form tag, used to create a form.
+      action attribute, used to specify the location of the file that will process the data.
+      method attribute, used to specify the type of request. (Ex. GET, POST)
+        - GET is usually considered unsecure, as it sends data in the URL. 
+          -- Use this for search forms (searching through a website).
+        - POST is usually considered secure, as it sends data in the body of the request. 
+          -- Use this for forms that require a login or other sensitive information.
+      -->
+    <form action="" method="POST" class="my-form">
+      <!-- You can put elements within the form, in divs to style them how you wish. -->
+      <div class="input-field-1 form-item">
+        <!-- Label tag, used to specify the label of the input. 
+        for attribute, used to specify the id of the input.
+        -->
+        <label for="first-name">First Name:</label>
+
+        <!-- Input tag, used to receive information.
+        type attribute, used to specify the type of input.
+        id attribute, used to specify the id of the input (links with label).
+        name attribute, used to specify the name of the input in data.
+        placeholder attribute, used to specify the placeholder of the input.
+        maxlength attribute, used to specify the maximum length of the input.
+        required attribute, makes the input required.
+        -->
+        <input
+          type="text"
+          id="first-name"
+          name="firstName"
+          placeholder="First Name"
+          maxlength="20"
+          required
+        />
+      </div>
+
+      <div class="input-field-2 form-item">
+        <label for="last-name">First Name:</label>
+        <input
+          type="text"
+          id="last-name"
+          name="lastName"
+          placeholder="Last Name"
+        />
+      </div>
+
+      <div class="input-field-3 form-item">
+        <label for="email">Email:</label>
+        <!-- input, type="email" 
+        makes sure that the content typed in the field is in valid email format.
+      -->
+        <input type="email" id="email" name="email" placeholder="Email" />
+      </div>
+
+      <div class="input-field-4 form-item">
+        <label for="password">Password:</label>
+        <!-- input, type="password" 
+        makes content typed in the field hidden (represented with black dots)
+      -->
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          maxlength="10"
+        />
+      </div>
+
+      <!-- There are lots of other values for the input's type attribute. Such as tel (for telephone), date, and much more. -->
+
+      <div class="radio form-item">
+        <!-- Input, type="radio"
+        Radio buttons let a user select only one of a limited number of choices.
+
+        name attribute, used to specify the radio group. 
+        value attribute, used to specify the data value sent to the server.
+         -->
+
+        <!-- You can have a general label for the entire radio group. -->
+        <label for="prefix">Prefix:</label>
+
+        <label for="mr">Mr.</label>
+        <input type="radio" id="mr" name="prefix" value="Mr." />
+
+        <label for="mr">Ms.</label>
+        <input type="radio" id="ms" name="prefix" value="Ms." />
+
+        <label for="mr">Dr.</label>
+        <input type="radio" id="dr" name="prefix" value="Dr." />
+      </div>
+
+      <div class="drop-down form-item">
+        <!-- select tag, drop-down-menus 
+        option tags specify a drop down option.
+          - value attribute specifies the value sent to the server. 
+        -->
+
+        <label for="payment-type">Payment Type:</label>
+        <select name="payment-type" id="payment-type">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="Debit">Debit</option>
+        </select>
+      </div>
+
+      <div class="checkbox form-item">
+        <!-- Input, type="checkbox"
+        Create a checkbox -->
+        <label for="terms-checkbox">Agree to Terms & Conditions:</label>
+        <input type="checkbox" id="terms-checkbox" name="termsAgreed" />
+      </div>
+
+      <div class="text-area form-item">
+        <!-- textarea tag
+        specifically meant for long text. -->
+        <textarea
+          name="message"
+          id="text-area"
+          placeholder="Message"
+        ></textarea>
+      </div>
+
+      <div class="slider form-item">
+        <!-- input, type="range"
+        A slider -->
+        <input type="range" min="1" max="100" value="50" id="range-slider" />
+        <!-- value is what value it starts at -->
+        <!-- Display the slider value with js -->
+      </div>
+
+      <!-- Buttons
+      There are two types of buttons. Either regular html buttons, or input tags.
+
+      Both ways, you must have a type="submit" attribute,
+      but the regular html buttons offer more flexibility. -->
+
+      <div class="button-container form-item">
+        <!-- Input, type="reset" 
+        Creates a button that resets data entered in the form.
+        value attribute, used to specify the text on the button.
+        -->
+        <input type="reset" value="Reset" />
+      </div>
+
+      <div class="button-container form-item">
+        <!-- Submit button (type="submit")
+        Creates a button that submits data entered in the form.
+        -->
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

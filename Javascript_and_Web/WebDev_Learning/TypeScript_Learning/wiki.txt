@@ -1,0 +1,27 @@
+What is TypeScript?
+- TypeScript is a direct superset of Javascript. All JS it valid TS.
+- TypeScript offers type declaration (static typing) to Javascript, making things less error prone.
+- Much better IDE tooling, linting, intellisense, etc.
+- Basically always use it over JS for larger projects.
+
+Installation
+- TypeScript needs to be installed as an npm package.
+- `npm install typescript -D`
+- Typically installed as a devDependency.
+
+TypeScript Compiler
+- TS doesn't work natively in any browsers. It needs to be compiled to JS first to run.
+- Compile one file `tsc <file.ts>` command, compile all at once with `tsc`.
+- Setup compile configurations in the tsconfig.json. (See that file for more info).
+
+TS-Node
+- Should you want to run typescript scripts directly, maybe for testing, you can use ts-node module.
+- `ts-node <file.ts>` to run a file directly. (ts-node must be installed globally)
+- ts-node technically compiles the file and runs it in memory, so it's not as fast as running a compiled JS file.
+
+tsconfig.json
+- Where you can configure the behaviour of your typescript, compilation, and other things.
+
+Learning References:
+- https://www.youtube.com/watch?v=d56mG7DezGs 
+

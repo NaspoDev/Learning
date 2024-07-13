@@ -1,0 +1,5 @@
+# note that I like to change some of his prettier rules
+singleQuote: false # I like to use double quotes
+semi: true # I like to use semicolons
+printWidth: 100
+trailingComma: none

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Which version of ECMAScript to compile ts into. "ESNext" signifies the latest version.
+    "target": "ESNext",
+    // "commonjs" is the module system used in Node.js. "ESNext" is the latest version of ECMAScript.
+    // Use "commonjs" if you are developing a Node.js app. Use "ESNext" if you are targeting the browser directly (i.e website/webapp).
+    "module": "ESNext",
+    // Where our compiled js files will be stored. Convention to put them in a folder called "dist". (Created automatically on first compile).
+    "outDir": "dist",
+    // Strict type checking.
+    "strict": true,
+    "esModuleInterop": true,
+    // Root directory of ts files. Not required, but convention to but source code in a folder called "src".
+    "rootDir": "src",
+    // Remove comments in compiled js code.
+    "removeComments": true,
+    // Do not compile to js if there is an error in the code.
+    "noEmitOnError": true,
+    // Gives a warning if there are unused variable.
+    "noUnusedLocals": true,
+    // Gives a warning if there are unused parameters in a function.
+    "noUnusedParameters": true,
+    // Warns if there is a code path in a function that does not return a value.
+    "noImplicitReturns": true,
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

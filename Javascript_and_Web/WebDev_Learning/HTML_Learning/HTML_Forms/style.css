@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(79, 80, 82);
+}
+
+.my-form {
+  background-color: rgb(127, 159, 190);
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex: row;
+  width: 100%;
+  height: 50px;
+}
+
+.form-item label {
+  font-size: 22px;
+}
+
+.form-item input {
+  font-size: 18px;
+}
+
+.input-field-1 input,
+.input-field-2 input {
+  padding-left: 10px;
+}
+
+.radio input,
+.checkbox input {
+  width: 30px;
+  margin: 0 20px 0 10px;
+}
+
+.button-container input {
+  width: 20%;
+  margin-left: 30px;
+}

@@ -1,0 +1,13 @@
+<h3>My List of Cars</h3>
+<ul>
+  <!-- Directives (dynamically rendering content) -->
+  <!-- *NOTE: @for is new syntax for Angular version 17 and up! -->
+  @for (item of items; track $index) {
+  <li>{{ item.name }}, {{ item.description }}</li>
+  }
+
+  <!-- OLD SYNTAX: -->
+  <!-- <li **ngFor="let item of items">
+    {{ item.name }}, {{ item.description }}
+  </li> -->
+</ul>

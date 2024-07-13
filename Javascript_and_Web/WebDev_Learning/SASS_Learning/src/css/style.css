@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: calc(300px + 100px);
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: rgb(236, 93, 193);
+  font-size: 24px;
+}
+.container p {
+  color: rgb(108, 108, 173);
+}
+.container button {
+  width: 100px;
+  height: 70px;
+  background-color: rgb(236, 93, 193);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: rgb(108, 108, 173);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "tailwind_learning",
+  "version": "1.0.0",
+  "description": "Learning tailwindcss!",
+  "main": "index.js",
+  "scripts": {
+    "watchTailwind": "npx tailwindcss -i ./style.css -o ./dist/tailwind.css --watch"
+  },
+  "keywords": [
+    "learning",
+    "tailwind"
+  ],
+  "author": "Naspo",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

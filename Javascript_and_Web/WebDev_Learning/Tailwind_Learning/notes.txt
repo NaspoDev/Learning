@@ -1,0 +1,33 @@
+After you init your node project (npm init)..
+
+1. Install Tailwind to the project (usually as a dev dependency). 
+npm install -D tailwindcss
+
+2. Init Tailwind.
+npx tailwindcss init
+
+Add the path to your html files in the content array.
+Configure your tailwind.config.js file to your liking as needed (usually nothing else needed).
+
+3. Create your main css file and add the tailwind imports. 
+This is where you can also write your custom css.
+
+``` style.css ```
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+``` ``` ```
+
+4. Open a new terminal tab and start the tailwind watcher/compiler.
+npx tailwindcss -i ./path/to/style.css -o ./path/to/tailwind.css --watch
+(You can also add this command as a script in your package.json file as I've done in this project).
+
+This will create a tailwind.css file with all the tailwind classes.
+
+5. Link the compiled tailwind.css file to your html file.
+
+6. Start working!
+Write tailwind in the html files, and add custom css in the style.css file.

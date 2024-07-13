@@ -1,0 +1,9 @@
+/* Tailwind Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Below */
+.hero {
+  background-color: rgb(95, 145, 160);
+}

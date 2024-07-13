@@ -1,0 +1,2 @@
+Normal JavaScript code is synchronous. This means that each line of code is executed one after another.
+Asynchronous JavaScript allows us to execute code that takes time to complete without blocking the execution.
