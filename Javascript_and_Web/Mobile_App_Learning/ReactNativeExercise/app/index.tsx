@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   loginButtonsContainer: {
-    width: "100%",
+    width: Platform.OS == "web" ? 200 : "100%",
     gap: 10,
     marginBottom: 40,
   },
