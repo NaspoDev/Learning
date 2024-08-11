@@ -1,5 +1,6 @@
 import AlertsLearning from "@/components/AlertsLearning";
 import FlexLayout from "@/components/FlexLayout";
+import PropsLearning from "@/components/PropsLearning";
 import { useState } from "react";
 import {
   Text,
@@ -51,6 +52,7 @@ export default function Index() {
       </TouchableHighlight>
       <AlertsLearning></AlertsLearning>
       <FlexLayout></FlexLayout>
+      <PropsLearning name="Tom"></PropsLearning>
     </SafeAreaView>
   );
 }
