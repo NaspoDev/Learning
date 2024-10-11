@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atsub\\VisualStudioProjects\\Learning\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {}
+    "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atsub\\VisualStudioProjects\\Learning\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {
+    "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atsub\\VisualStudioProjects\\Learning\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
         "projectName": "LearningCSharp",
-        "projectPath": "C:\\Users\\atsub\\VisualStudioProjects\\Learning\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
+        "projectPath": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearningCSharp\\LearningCSharp\\LearningCSharp.csproj",
         "packagesPath": "C:\\Users\\atsub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atsub\\VisualStudioProjects\\Learning\\LearningCSharp\\LearningCSharp\\obj\\",
+        "outputPath": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearningCSharp\\LearningCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atsub\\AppData\\Roaming\\NuGet\\NuGet.Config",

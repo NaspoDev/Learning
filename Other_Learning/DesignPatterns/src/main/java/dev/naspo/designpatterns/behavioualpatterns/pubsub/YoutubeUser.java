@@ -1,4 +1,4 @@
-package main.java.dev.naspo.designpatterns.behavioualpatterns.observer;
+package main.java.dev.naspo.designpatterns.behavioualpatterns.pubsub;
 
 public class YoutubeUser implements Subscriber {
 

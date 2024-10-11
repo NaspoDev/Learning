@@ -1,4 +1,4 @@
-package main.java.dev.naspo.designpatterns.behavioualpatterns.observer;
+package main.java.dev.naspo.designpatterns.behavioualpatterns.pubsub;
 
 import java.util.ArrayList;
 

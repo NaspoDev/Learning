@@ -1,8 +1,8 @@
 package main.java.dev.naspo.designpatterns;
 
 import main.java.dev.naspo.designpatterns.behavioualpatterns.iterator.SinglyLinkedList;
-import main.java.dev.naspo.designpatterns.behavioualpatterns.observer.YoutubeChannel;
-import main.java.dev.naspo.designpatterns.behavioualpatterns.observer.YoutubeUser;
+import main.java.dev.naspo.designpatterns.behavioualpatterns.pubsub.YoutubeChannel;
+import main.java.dev.naspo.designpatterns.behavioualpatterns.pubsub.YoutubeUser;
 import main.java.dev.naspo.designpatterns.behavioualpatterns.strategy.RemoveNegativeStrategy;
 import main.java.dev.naspo.designpatterns.behavioualpatterns.strategy.RemoveOddStrategy;
 import main.java.dev.naspo.designpatterns.behavioualpatterns.strategy.Values;
@@ -56,9 +56,9 @@ public class Main {
         app2.logIn();
         System.out.println(app1.isLoggedIn()); // true
 
-        // 4. Observer (aka PubSub)
-        // The observer pattern is a behavioural pattern that allows an object (the publisher) to notify
-        // other objects (the subscribers) upon some action.
+        // 4. PubSub (aka Observer, aka Topic)
+        // The PubSub pattern is a behavioural pattern that allows the publisher to notify
+        // the subscribers upon some action.
         YoutubeChannel channel = new YoutubeChannel("Naspo");
         channel.subscribe(new YoutubeUser("xXGamerXx"));
         channel.subscribe(new YoutubeUser("randomUser123"));

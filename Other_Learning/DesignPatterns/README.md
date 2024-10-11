@@ -41,9 +41,9 @@ You want to maintain global Application state. The App class should only be inst
 
 ## Behavioural Patterns
 
-### Observer (aka PubSub)
-The observer pattern is a behavioural pattern that allows the subject (aka the publisher) to notify
-other observers (aka the subscribers) upon some action.
+### PubSub (aka Observer, aka Topic)
+The PubSub pattern is a behavioural pattern that allows the publisher to notify
+the subscribers upon some action.
 
 Example:\
 A YouTube channel has many subscribers. When the channel uploads a new video, all the subscribers
