@@ -9,6 +9,8 @@ public class Main {
         // It's meant to be inherited by other classes like Dog, that you would instantiate.
 
         Dog rocket = new Dog("Male", false, "Rocket");
+        System.out.println(rocket.name);
+        System.out.println(rocket.predator);
         rocket.makeNoise();
         rocket.poop();
     }

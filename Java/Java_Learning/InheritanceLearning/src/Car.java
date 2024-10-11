@@ -1,15 +1,14 @@
 // Child class
 public class Car extends Vehicle {
 
-    // Even if wheels is already defined in Vehicle, you still have to redeclare it here if you
-    // want to make changes to it for the child class.
-    int wheels = 4; // overriding the wheels variable for Car
-    int doors = 4; // custom variable to this class
+    int wheels = 4; // cars have wheels
+    int doors; // custom variable to this class
 
     // Using the superclass' implementation of initializing common variables for this car.
     // (Does this.speed = speed and so on for each car initialized).
-    public Car(double speed, String make, int year) {
+    public Car(double speed, String make, int year, int doors) {
         super(speed, make, year);
+        this.doors = doors;
     }
 
     // Override the stop() method from the parent Vehicle class

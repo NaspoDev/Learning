@@ -9,7 +9,7 @@ public class Main {
         // - Subclass inherits fields and method implementations from a single superclass.
 
         // Car and Bicycle classes both extend Vehicle.
-        Car car = new Car(60, "Hyundai Sonata", 2015);
+        Car car = new Car(60, "Hyundai Sonata", 2015, 4);
         Bicycle bike = new Bicycle(15, "Garneau", 2022);
 
         System.out.println(car.doors + " doors on our " + car.year + " " + car.make);

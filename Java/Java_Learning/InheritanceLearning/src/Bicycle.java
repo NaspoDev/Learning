@@ -1,7 +1,7 @@
 // Child class
 public class Bicycle extends Vehicle {
 
-    int wheels = 2; // overriding the wheels variable for Bicycle
+    int wheels = 2; // bikes have wheels
     double speed = 5.5; // overriding the speed variable for Bicycle
     int pedals = 2; // custom variable to this child
 

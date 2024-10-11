@@ -1,9 +1,8 @@
 // Parent Class
 public class Vehicle {
 
-    // All vehicles should have a speed, and wheels.
+    // All vehicles should have these properties.
     double speed;
-    int wheels;
     String make;
     int year;
 
