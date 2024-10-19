@@ -1,0 +1,4 @@
+.col {
+  /* it also has built in css variables */
+  border: 2px solid var(--bs-danger-border-subtle);
+}
