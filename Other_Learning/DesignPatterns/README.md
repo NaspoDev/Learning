@@ -60,8 +60,10 @@ A behavioural pattern that allows you to define a family of algorithms, followin
 Open to extension, closed to modification.
 
 Example:\
-A Filter Strategy that can be applied to a list of items. You can have different implementations of the
-filter strategy, like remove all odd numbers, remove all negative numbers, etc...
+A Notification Strategy that can be applied to different types of notifications.
+For example, when an order is filled we should notify the customer. But how do they want to be notified?
+Instead of having a bunch of if statements for each type of notification service, we can just pass in the 
+correct notification strategy to use.
 
 ## Structural Patterns
 
