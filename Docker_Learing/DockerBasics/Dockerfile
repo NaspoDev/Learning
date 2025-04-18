@@ -1,21 +1,19 @@
-# FROM a base image. 
+# FROM a base image.
 # We will build our image on top of this base image.
-# This base image is node, which is based on linux. It's an official image, find official images on the docker hub.
-
-# The node image has different version built on different linux distrobutions.
-# The :alpine is a tag, which is specifies which Linux distrobution we want to use.
+# This base image for example is node, with tags to specify which Linux distribution to run it on (choosing Alpine). 
+# It's an official image, find official images on the docker hub.
 FROM node:alpine
-
-# COPY <source> <destination>
-# In this case, copy all project files (specified with the "."), to the /app directory in the container.
-# The /app directory is created if it doesn't exist.
-# /app can be any name, but it's a convention to use /app.
-COPY . /app
 
 # WORKDIR <path>
 # Sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile.
 WORKDIR /app
 
-# CMD ["executable", "param1", "param2"]
-# The command to run when the container starts. In this case, run node with the index.js file (node index.js).
+# COPY <source> <destination>
+# (Source location is relative to the location of the Dockerfile in your project).
+# In this case, copy all project files (specified with '.'), to the /app directory in the container 
+# (also uses '.', as we defined /app as our working directory earlier).
+COPY . .
+
+# CMD ["command", "param1", "param2", "etc..."]
+# The command to run when the container starts. In this case, run node with the app.js file (node app.js).
 CMD ["node", "app.js"]
