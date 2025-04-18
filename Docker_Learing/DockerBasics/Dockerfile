@@ -14,6 +14,11 @@ WORKDIR /app
 # (also uses '.', as we defined /app as our working directory earlier).
 COPY . .
 
+# EXPOSE <port>
+# Since docker images run in a container, we need to expose any ports needed by our app to the host machine.
+# Ex. 3000 is the port that our express app is running on.
+EXPOSE 3000
+
 # CMD ["command", "param1", "param2", "etc..."]
 # The command to run when the container starts. In this case, run node with the app.js file (node app.js).
 CMD ["node", "app.js"]
