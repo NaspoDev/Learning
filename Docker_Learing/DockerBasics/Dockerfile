@@ -1,8 +1,8 @@
 # FROM a base image.
 # We will build our image on top of this base image.
-# This base image for example is node, with tags to specify which Linux distribution to run it on (choosing Alpine). 
+# This base image for example is node, with tags to specify which version. 
 # It's an official image, find official images on the docker hub.
-FROM node:alpine
+FROM node:18
 
 # WORKDIR <path>
 # Sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile.
