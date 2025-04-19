@@ -17,6 +17,8 @@ COPY . .
 # EXPOSE <port>
 # Since docker images run in a container, we need to expose any ports needed by our app to the host machine.
 # Ex. 3000 is the port that our express app is running on.
+# Note that the EXPOSE instruction is really only for documentation purposes, to display the intended port(s)
+# to expose for when the user runs the `docker run` command with the `-p` flag.
 EXPOSE 3000
 
 # CMD ["command", "param1", "param2", "etc..."]
