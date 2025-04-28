@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearningCSharp;
+﻿namespace LearningCSharp;
 
 // Vehicle parent class
 // Also testing/learning about abstract class at the same time. Same as Java.

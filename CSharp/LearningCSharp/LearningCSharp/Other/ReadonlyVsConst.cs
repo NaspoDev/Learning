@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearningCSharp;
+﻿namespace LearningCSharp;
 
 // A const is a compile-time constant whereas readonly allows a value to be calculated at
 // run-time and set in the constructor or field initializer.

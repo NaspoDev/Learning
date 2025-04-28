@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearningCSharp;
+﻿namespace LearningCSharp;
 
 /* 
 A struct is a data structure that can be used to hold small data values that do not require inheritance.

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LearningCSharp;
+﻿namespace LearningCSharp;
 
 // Car class inherits from Vehicle class and implements the IManualTransmission interface.
 // Colon is inheritance and implement operator, thats why we tend to start interface names with "I", because it differentiates them.
