@@ -1,5 +1,6 @@
 ﻿// You can also define a file scoped namespace like this:
 // namespace LearningCSharp;
+// I recommend file scoped namespaces, but just showing block-scoped as demonstration.
 namespace LearningCSharp
 {
     internal class Program
@@ -14,11 +15,11 @@ namespace LearningCSharp
             string lastName = "Topaltsis";
             Console.WriteLine("Hello {0} {1}", firstName, lastName);
             Console.WriteLine($"Hello {firstName} {lastName}. Let's learn C#!");
-            Console.WriteLine(@"C:\example\path"); // @ makes the string a string literal (raw string)
+            Console.WriteLine(@"C:\example\path"); // '@' denotes string literal (raw string)
 
             // Primitive types are the exact same as Java
             // Defining constants
-            const string MyConst = "I am a constant"; // Notice how consts are
+            const string MyConst = "I am a constant"; // Notice how consts are PascalCase.
 
             // Implicit Type Conversion
             // If possible, values will be implicitly converted without the need to use some kind of utility method.
@@ -45,7 +46,7 @@ namespace LearningCSharp
                 Console.Write(fruit + " ");
             }
 
-            // Testing our classes and inheritance...
+            // Testing classes and inheritance...
             Car sonata = new Car(220, "Hyundai", "Sonata");
             Console.WriteLine("My car's info:");
             Console.WriteLine($"Manufacturer: {sonata.Manufacturer}, Model: {sonata.Model}, top speed: {sonata.TopSpeed}");
