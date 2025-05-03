@@ -72,9 +72,8 @@ namespace LearningCSharp
 
             /*
             var keyword (spoiler: dont use this)
-            The var keyword is used to generally declare a variable without declaring its type.
-            Typically used to save typing, for situations like: "I think there is enough context information for the reader
-            to understand what the type would be if I didn't use var.". 
+            The var keyword is instructs the compiler to infer the type of the variable from 
+            the expression on the right side of the initialization statement
 
             Example: Dictionary<string, int> dict = new Dictionary<string, int>(); would turn into the code below.
             

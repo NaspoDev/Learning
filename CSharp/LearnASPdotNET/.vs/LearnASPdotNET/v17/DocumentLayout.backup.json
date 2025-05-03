@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|c:\\users\\atsub\\mydev\\learning\\csharp\\learnaspdotnet\\learnaspdotnet\\models\\adoptionapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|solutionrelative:learnaspdotnet\\models\\adoptionapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|c:\\users\\atsub\\mydev\\learning\\csharp\\learnaspdotnet\\learnaspdotnet\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|solutionrelative:learnaspdotnet\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|c:\\users\\atsub\\mydev\\learning\\csharp\\learnaspdotnet\\learnaspdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13174735-3B89-48ED-8D83-E27062E88C43}|LearnASPdotNET\\LearnASPdotNET.csproj|solutionrelative:learnaspdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdoptionApplication.cs",
+              "DocumentMoniker": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Models\\AdoptionApplication.cs",
+              "RelativeDocumentMoniker": "LearnASPdotNET\\Models\\AdoptionApplication.cs",
+              "ToolTip": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Models\\AdoptionApplication.cs",
+              "RelativeToolTip": "LearnASPdotNET\\Models\\AdoptionApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:47:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Program.cs",
+              "RelativeDocumentMoniker": "LearnASPdotNET\\Program.cs",
+              "ToolTip": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Program.cs",
+              "RelativeToolTip": "LearnASPdotNET\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:38:31.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Models\\Dog.cs",
+              "RelativeDocumentMoniker": "LearnASPdotNET\\Models\\Dog.cs",
+              "ToolTip": "C:\\Users\\atsub\\MyDev\\Learning\\CSharp\\LearnASPdotNET\\LearnASPdotNET\\Models\\Dog.cs",
+              "RelativeToolTip": "LearnASPdotNET\\Models\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:38:39.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

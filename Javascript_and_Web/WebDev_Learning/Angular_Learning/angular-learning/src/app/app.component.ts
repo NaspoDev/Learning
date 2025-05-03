@@ -6,7 +6,7 @@ import { DatabaseService } from './services/database.service';
 
 // The App component
 
-// What actually makes a component a component, is the @Component Typescript decorator.
+// What actually makes a component a component is the @Component Typescript decorator.
 // In this type-decorator, you can define component properties.
 @Component({
   selector: 'app-root', // The component's custom HTML tag name, and css selector.
