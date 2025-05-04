@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using PetGroomerAPI.Data;
 
 namespace PetGroomerAPI;
 
@@ -17,6 +19,11 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        // Adding DbContext
+        string? connectionString = builder.Configuration.GetConnectionString("DefualtConnection");
+        MySqlServerVersion serverVersion = new MySqlServerVersion(new Version(8, 0, 36));
+        builder.Services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, serverVersion));
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -29,7 +36,6 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 

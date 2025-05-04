@@ -7,10 +7,4 @@ public class Appointment
     public Pet Pet { get; set; }
     public DateTime AppointmentDateTime { get; set; }
 
-    public Appointment(int id, Pet pet, DateTime appointmentDateTime)
-    {
-        Id = id;
-        Pet = pet;
-        AppointmentDateTime = appointmentDateTime;
-    }
 }

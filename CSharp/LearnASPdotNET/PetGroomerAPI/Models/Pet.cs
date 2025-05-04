@@ -3,6 +3,8 @@
 // Pet model class
 public class Pet
 {
+    // Static values (like 'readonly static' and 'const') are ignored by EF Core,
+    // so you can have them in Model classes.
     public static readonly string[] ValidSpecies = { "dog", "cat" };
 
     public int Id { get; set; }
@@ -26,14 +28,4 @@ public class Pet
     public string Breed { get; set; }
     public int Age { get; set; }
     public Client Owner { get; set; }
-
-    public Pet(int id, string name, string species, string breed, int age, Client owner)
-    {
-        Id = id;
-        Name = name;
-        Species = species;
-        Breed = breed;
-        Age = age;
-        Owner = owner;
-    }
 }

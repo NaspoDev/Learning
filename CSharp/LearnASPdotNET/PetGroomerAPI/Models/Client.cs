@@ -8,11 +8,4 @@ public class Client
     public string LastName { get; set; }
     public string Phone { get; set; }
 
-    public Client(int id, string firstName, string lastName, string phone)
-    {
-        Id = id;
-        FirstName = firstName;
-        LastName = lastName;
-        Phone = phone;
-    }
 }
