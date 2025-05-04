@@ -1,16 +1,31 @@
-﻿namespace LearningCSharp;
+﻿namespace LearningCSharp.Other;
 
-// A const is a compile-time constant whereas readonly allows a value to be calculated at
-// run-time and set in the constructor or field initializer.
+
+/* 
+const vs readonly variables
+
+const Variables: 
+- Compile-time constant: The value must be known at compile time.
+- Implicitly static: You access it via the type, not an instance.
+- Must be initialized at declaration.
+- Cannot be assigned a non-constant value (like another variable or a method call).
+
+readonly Variables:
+- Runtime constant: The value is set at runtime, not compile time.
+- Can be instance or static.
+- Must be assigned either:
+- At the point of declaration or
+- In the constructor.
+
+*/
+
 internal class ReadonlyVsConst
 {
-    // const variables must be initialized at the field scope (in their declaration).
-    const string s1 = "test";
-    // readonly values can be initialized in the constructor.
-    readonly string s2;
+    public const string MyConst = "test";
+    public readonly string MyReadOnlyString;
 
-    internal ReadonlyVsConst(string s2)
+    internal ReadonlyVsConst(string value)
     {
-        this.s2 = s2;
+        MyReadOnlyString = value;
     }
 }

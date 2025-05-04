@@ -1,8 +1,8 @@
 
-namespace LearnASPdotNET;
+namespace PetGroomerAPI;
 
-// This is a learning project for making a Web API with ASP.NET.
-// It will be an api for a Dog Shelter app.
+// A learning project for building a Web API with ASP.NET.
+// It will be an API for a Pet Groomer.
 
 public class Program
 {

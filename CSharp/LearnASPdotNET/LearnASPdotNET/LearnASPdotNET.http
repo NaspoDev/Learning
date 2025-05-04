@@ -1,6 +1,0 @@
-@LearnASPdotNET_HostAddress = http://localhost:5293
-
-GET {{LearnASPdotNET_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
