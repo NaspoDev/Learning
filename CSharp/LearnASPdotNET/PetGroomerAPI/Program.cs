@@ -24,7 +24,17 @@ public class Program
         builder.Services.AddSwaggerGen();
 
         // Adding our DbContext as a service.
-        string? connectionString = builder.Configuration.GetConnectionString("DefualtConnection");
+        // Building our connection string using environment variables.
+        // * If you define it in appsettings.json, you can access it like this:
+        // builder.Configuration.GetConnectionString("DefualtConnection");
+        string? dbHost = Environment.GetEnvironmentVariable("DATABASE_HOST");
+        string? dbPort = Environment.GetEnvironmentVariable("DATABASE_PORT");
+        string? dbUser = Environment.GetEnvironmentVariable("DATABASE_USER");
+        string? dbPass = Environment.GetEnvironmentVariable("DATABASE_PASSWORD");
+        string? dbName = Environment.GetEnvironmentVariable("DATABASE_NAME");
+        string connectionString = $"server={dbHost};port={dbPort};database={dbName};user={dbUser};password={dbPass};";
+
+        // The UseMySql() DbContext option requires an explicitly defined version of MySQL that we are using.
         MySqlServerVersion serverVersion = new MySqlServerVersion(new Version(8, 0, 36));
         builder.Services.AddDbContext<DatabaseContext>(options => options.UseMySql(connectionString, serverVersion));
 
