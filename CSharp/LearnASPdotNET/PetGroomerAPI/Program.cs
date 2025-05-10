@@ -1,7 +1,6 @@
-using Microsoft.AspNetCore.Http.HttpResults;
+
 using Microsoft.EntityFrameworkCore;
 using PetGroomerAPI.Data;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace PetGroomerAPI;
 
@@ -17,11 +16,11 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
-        // Next we are adding services to be used via dependency injection. (controllers, swagger, etc)...
+        // Next we are adding services to be used via dependency injection. (controllers, OpenAPI, etc)...
 
         builder.Services.AddControllers();
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+        builder.Services.AddOpenApi();
 
         // Adding our DbContext as a service.
         // Building our connection string using environment variables.
@@ -44,14 +43,14 @@ public class Program
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            app.MapOpenApi();
         }
 
         // Redirects any http requests to use https.
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
+
 
         app.MapControllers();
 

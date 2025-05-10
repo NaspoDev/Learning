@@ -33,7 +33,7 @@ public class Pet
     [MaxLength(100)]
     public string Breed { get; set; }
 
-    public DateOnly dateOfBirth { get; set; }
+    public DateOnly DateOfBirth { get; set; }
 
     public Client Owner { get; set; }
 }

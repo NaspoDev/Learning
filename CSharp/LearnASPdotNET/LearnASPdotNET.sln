@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetGroomerAPI", "PetGroomerAPI\PetGroomerAPI.csproj", "{668E76A7-E4AF-4449-B24A-89F86DA7228F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetGroomerAPI", "PetGroomerAPI\PetGroomerAPI.csproj", "{022341FF-0065-47F9-9036-4877965094C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{668E76A7-E4AF-4449-B24A-89F86DA7228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{668E76A7-E4AF-4449-B24A-89F86DA7228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{668E76A7-E4AF-4449-B24A-89F86DA7228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{668E76A7-E4AF-4449-B24A-89F86DA7228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022341FF-0065-47F9-9036-4877965094C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022341FF-0065-47F9-9036-4877965094C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022341FF-0065-47F9-9036-4877965094C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022341FF-0065-47F9-9036-4877965094C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
