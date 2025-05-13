@@ -1,4 +1,6 @@
-﻿namespace PetGroomerAPI.Models;
+﻿using PetGroomerAPI.Models.Pets;
+
+namespace PetGroomerAPI.Models;
 
 // Appointment model class
 public class Appointment
