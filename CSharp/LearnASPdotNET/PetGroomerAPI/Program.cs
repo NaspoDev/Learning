@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using PetGroomerAPI.Data;
+using Scalar.AspNetCore;
 
 namespace PetGroomerAPI;
 
@@ -43,7 +44,10 @@ public class Program
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
+            Console.WriteLine("Running in development environment.");
             app.MapOpenApi();
+            // Im using Scalar for testing my API in development.
+            app.MapScalarApiReference();
         }
 
         // Redirects any http requests to use https.

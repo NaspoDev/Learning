@@ -47,7 +47,7 @@ namespace LearningCSharp
             }
 
             // Testing classes and inheritance...
-            Car sonata = new Car(220, "Hyundai", "Sonata");
+            Car sonata = new(220, "Hyundai", "Sonata");
             Console.WriteLine("My car's info:");
             Console.WriteLine($"Manufacturer: {sonata.Manufacturer}, Model: {sonata.Model}, top speed: {sonata.TopSpeed}");
 

@@ -10,10 +10,81 @@ namespace PetGroomerAPI.Controllers;
 [ApiController]
 public class ClientsController : ControllerBase
 {
+    // Temporary dummy data
+    private static List<Client> clients = [
+        new(1, "John", "Doe", "647-268-2897"),
+        new(2, "Jane", "Doe", "647-238-3467"),
+        new(3, "Tony", "Soprano", "416-363-1984")
+        ];
+
     // Get all clients.
     [HttpGet]
-    public ActionResult<Client> GetClients()
+    public ActionResult<List<Client>> GetClients()
     {
-        //TODO: make it!
+        return clients;
+    }
+
+    // Get client by id.
+    [HttpGet("{id}")]
+    public ActionResult<Client> GetClientById(long id)
+    {
+        Client client = clients.Find(c => c.Id == id);
+
+        if (client is null)
+        {
+            return NotFound();
+        }
+        return client;
+    }
+
+    // Create a client.
+    [HttpPost]
+    public ActionResult<Client> CreateClient(Client client)
+    {
+        long id = clients.Max(c => c.Id) + 1;
+        Client newClient = new(id, client.FirstName, client.LastName, client.PhoneNumber);
+        clients.Add(newClient);
+
+        // CreatedAtLocation returns a '201 Created' status code WITH:
+        // 1. The location of the item (the api endpoint that you can find it at).
+        // 2. The newly created object itself.
+        return CreatedAtAction(nameof(GetClientById), new {id = newClient.Id}, newClient);
+    }
+
+    // Update client.
+    [HttpPut("{id}")]
+    public ActionResult<Client> UpdateClient(long id, Client updatedClient)
+    {
+        // Get the client.
+        Client client = clients.Find(c => c.Id == id);
+
+        if (client is null)
+        {
+            return NotFound();
+        }
+
+        // Update the client.
+        client.FirstName = updatedClient.FirstName;
+        client.LastName = updatedClient.LastName;
+        client.PhoneNumber = updatedClient.PhoneNumber;
+
+        return NoContent();
+    }
+
+    // Delete client.
+    [HttpDelete("{id}")]
+    public ActionResult DeleteClient(long id)
+    {
+        // Get the client.
+        Client client = clients.Find(c => c.Id == id);
+
+        if (client is null)
+        {
+            return NotFound();
+        }
+
+        // Delete them.
+        clients.Remove(client);
+        return NoContent();
     }
 }

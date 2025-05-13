@@ -31,6 +31,9 @@ public class DatabaseContext : DbContext
 
             client.Property(c => c.PhoneNumber)
             .HasMaxLength(20);
+
+            // Setting phone number as unique.
+            client.HasIndex(c => c.PhoneNumber).IsUnique();
         });
 
         // Pet model configuration
