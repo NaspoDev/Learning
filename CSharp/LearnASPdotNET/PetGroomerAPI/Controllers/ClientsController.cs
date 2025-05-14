@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PetGroomerAPI.Data;
 using PetGroomerAPI.Models;
 
@@ -22,16 +23,16 @@ public class ClientsController : ControllerBase
 
     // Get all clients.
     [HttpGet]
-    public ActionResult<List<Client>> GetClients()
+    public async Task<ActionResult<List<Client>>> GetClients()
     {
-        return clients;
+        return await context.Clients.ToListAsync();
     }
 
     // Get client by id.
     [HttpGet("{id}")]
-    public ActionResult<Client> GetClientById(long id)
+    public async Task<ActionResult<Client>> GetClientById(long id)
     {
-        Client client = clients.Find(c => c.Id == id);
+        Client client = await context.Clients.FindAsync(id);
 
         if (client is null)
         {
@@ -42,26 +43,33 @@ public class ClientsController : ControllerBase
 
     // Create a client.
     [HttpPost]
-    public ActionResult<Client> CreateClient(Client client)
+    public async Task<ActionResult<Client>> CreateClient(Client client)
     {
-        long id = clients.Max(c => c.Id) + 1;
-        Client newClient = new(id, client.FirstName, client.LastName, client.PhoneNumber);
-        clients.Add(newClient);
+        if (client is null)
+        {
+            return BadRequest();
+        }
+
+        // Add() methods tells EF Core to track the entity, it doesn't actually insert it to the db.
+        // It should be inserted into the database on the next SaveChanges() call.
+        context.Clients.Add(client);
+        // When we are ready to save the changes, we need to call this:
+        await context.SaveChangesAsync();
 
         // CreatedAtLocation returns a '201 Created' status code WITH:
         // 1. The location of the item (the api endpoint that you can find it at).
         // 2. The newly created object itself.
-        return CreatedAtAction(nameof(GetClientById), new {id = newClient.Id}, newClient);
+        return CreatedAtAction(nameof(GetClientById), new {id = client.Id}, client);
     }
 
     // Update client.
     [HttpPut("{id}")]
-    public ActionResult<Client> UpdateClient(long id, Client updatedClient)
+    public async Task<ActionResult<Client>> UpdateClient(long id, Client updatedClient)
     {
         // Get the client.
-        Client client = clients.Find(c => c.Id == id);
+        Client client = await context.Clients.FindAsync(id);
 
-        if (client is null)
+        if (client is null) 
         {
             return NotFound();
         }
@@ -71,23 +79,29 @@ public class ClientsController : ControllerBase
         client.LastName = updatedClient.LastName;
         client.PhoneNumber = updatedClient.PhoneNumber;
 
+        await context.SaveChangesAsync();
+
         return NoContent();
     }
 
     // Delete client.
     [HttpDelete("{id}")]
-    public ActionResult DeleteClient(long id)
+    public async Task<ActionResult> DeleteClient(long id)
     {
         // Get the client.
-        Client client = clients.Find(c => c.Id == id);
+        Client client = await context.Clients.FindAsync(id);
 
         if (client is null)
         {
             return NotFound();
         }
 
-        // Delete them.
-        clients.Remove(client);
+        // Delete the client.
+        // Again, like Add(), the Remove() method tracks the entity.
+        // So since we are making a change, we need to save the changes to implement it.
+        context.Clients.Remove(client);
+        context.SaveChangesAsync();
+
         return NoContent();
     }
 }
