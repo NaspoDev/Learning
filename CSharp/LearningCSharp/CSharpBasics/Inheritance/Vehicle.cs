@@ -4,14 +4,16 @@
 // Also testing/learning about abstract class at the same time. Same as Java.
 internal abstract class Vehicle
 {
-    // === Fields and Properties - Encapsulation ===
-    // Fields are the actual variables, that you ideally want to keep private
-    private int topSpeed;
+    // === Properties ===
+    // Properties will create a private filed under the hood, and provides get and set functionality.
+    // Ex. Get: vehicle.Manufacturer | Set: Manufacturer = "value"
+    public string Manufacturer { get; set; }
 
-    // Properties are like a combination of a variable and a method, they allow you to interact with the fields.
-    // 1. Define a property for a field by using the same name, but starting with a capital. 
-    // 2. Now what actually makes this a property is when you use the built-in get and set keywords.
-    // As you can see below, you can define them right below the property and write custom logic for it.
+    // Properties with custom get/set logic
+    // 1. Define a field, the actual variable. (That you ideally want to keep private).
+    private int topSpeed;
+    // 2. Define a property for a field by using the same name, but starting with a capital. 
+    // 3. Write your custom logic in the get and/or set fields.
     public int TopSpeed
     {
         get { return topSpeed; }
@@ -29,9 +31,13 @@ internal abstract class Vehicle
         }
     }
 
-    // Short hand way for properties, if you don't need middleware logic, is to just define the property with get and set keywords.
-    // It will automatically create the field under the hood.
-    public string Manufacturer { get; set; }
+    // get-only properties.
+    // Can only be set from inside the class. 
+    // Ex. MyGetOnlyProp = 1 will only work in here, not anywhere else.
+    public int MyGetOnlyProp { get; private set; }
+
+    // init-only properties can only be set once on initalization of the class. After that they become immutable.
+    public int MyProperty { get; init; }
 
     public Vehicle(int topSpeed, string manufacturer)
     {

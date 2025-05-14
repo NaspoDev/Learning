@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCSharp", "LearningCSharp\LearningCSharp.csproj", "{0D2D49C7-13DF-40A3-B39B-40F26329224F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQLearning", "LINQLearning\LINQLearning.csproj", "{65E110EF-8778-4EFA-BC39-5561791D028D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics\CSharpBasics.csproj", "{5CC31B35-6552-00E6-2646-D2566B57DF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLearning", "AsyncLearning\AsyncLearning.csproj", "{1629E240-D5AE-4C94-8569-77CF7CDD8C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0D2D49C7-13DF-40A3-B39B-40F26329224F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D2D49C7-13DF-40A3-B39B-40F26329224F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D2D49C7-13DF-40A3-B39B-40F26329224F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D2D49C7-13DF-40A3-B39B-40F26329224F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65E110EF-8778-4EFA-BC39-5561791D028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65E110EF-8778-4EFA-BC39-5561791D028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E110EF-8778-4EFA-BC39-5561791D028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E110EF-8778-4EFA-BC39-5561791D028D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC31B35-6552-00E6-2646-D2566B57DF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1629E240-D5AE-4C94-8569-77CF7CDD8C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1629E240-D5AE-4C94-8569-77CF7CDD8C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1629E240-D5AE-4C94-8569-77CF7CDD8C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1629E240-D5AE-4C94-8569-77CF7CDD8C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

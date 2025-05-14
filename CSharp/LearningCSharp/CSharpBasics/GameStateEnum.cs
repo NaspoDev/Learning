@@ -1,4 +1,4 @@
-﻿namespace LearningCSharp.Other;
+﻿namespace LearningCSharp;
 
 // Learning enums in C#!
 // An enum is a named integer constant.

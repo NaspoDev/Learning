@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PetGroomerAPI.Data;
 using PetGroomerAPI.Models;
 
 namespace PetGroomerAPI.Controllers;
@@ -10,12 +11,14 @@ namespace PetGroomerAPI.Controllers;
 [ApiController]
 public class ClientsController : ControllerBase
 {
-    // Temporary dummy data
-    private static List<Client> clients = [
-        new(1, "John", "Doe", "647-268-2897"),
-        new(2, "Jane", "Doe", "647-238-3467"),
-        new(3, "Tony", "Soprano", "416-363-1984")
-        ];
+
+    private readonly DatabaseContext context;
+
+    // Injecting our database context.
+    public ClientsController(DatabaseContext context)
+    {
+        this.context = context;
+    }
 
     // Get all clients.
     [HttpGet]

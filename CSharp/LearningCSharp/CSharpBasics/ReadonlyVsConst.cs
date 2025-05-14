@@ -1,4 +1,4 @@
-﻿namespace LearningCSharp.Other;
+﻿namespace LearningCSharp;
 
 
 /* 

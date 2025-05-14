@@ -68,7 +68,7 @@ namespace LearningCSharp
 
             // Testing our structs. (see Structs.sc)
             Structs structs = new Structs();
-            structs.doSomething();
+            structs.DoSomething();
 
             /*
             var keyword (spoiler: dont use this)
@@ -82,12 +82,6 @@ namespace LearningCSharp
             var myDict = new Dictionary<string, int>();
         }
 
-        // async await. C# supports the async await syntax!
-        public async void sayHi()
-        {
-            // await SomeTask
-        }
-
         // in C#, you can explicitly define if a value should be passed as a reference type of a value.
         public void DoSomething(ref int value)
         {
@@ -97,7 +91,7 @@ namespace LearningCSharp
         // params keyword
         // Use the params keyword to allow any number of arguments of a certain type.
         // For example: The checkout method takes as many items as the user is buying and will return the total cost.
-        public static double checkout(params double[] prices)
+        public static double Checkout(params double[] prices)
         {
             double total = 0;
 

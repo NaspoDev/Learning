@@ -18,7 +18,7 @@ internal class Structs
         internal int y;
     }
 
-    internal void doSomething()
+    internal void DoSomething()
     {
         // structs can be initialized with or without the "new" keyword.
 

@@ -25,7 +25,6 @@ public class Program
         // Next we are adding services to be used via dependency injection. (controllers, OpenAPI, etc)...
 
         builder.Services.AddControllers();
-        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
 
         // Adding our DbContext as a service.
