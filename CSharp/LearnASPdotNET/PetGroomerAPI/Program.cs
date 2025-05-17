@@ -63,6 +63,9 @@ public class Program
 
         app.MapControllers();
 
+        // Added a simple get mapping for root to say hello.
+        app.MapGet("/", () => "Hello from root!");
+
         app.Run();
     }
 }
