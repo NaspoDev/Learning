@@ -2,6 +2,7 @@
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 /*
 Stream API is used to process collections of objects.
@@ -27,13 +28,22 @@ public class Main {
                 .filter(p -> p.age < 30)
                 .toList();
 
+        // Other example using findFirst();
+        Optional<Person> john = people.stream()
+                .filter(p -> p.name.equals("John"))
+                .findFirst();
+
+        if (john.isPresent()) {
+            System.out.println("Found John!");
+        }
+
         // Performing an action on each element.
         /*
         Side remark: Collection.stream().forEach() vs Collection.forEach()
         - Using a stream allows you to append other methods like filter().
         - Using Collection.forEach() runs though the list in order.
          */
-        System.out.println("Printing all people:");
+        System.out.println("\nPrinting all people:");
         people.stream().forEach(p -> System.out.println(p.toString()));
         // Some other stuff you can do;
         System.out.println("\nPrinting max of 3 people:");
