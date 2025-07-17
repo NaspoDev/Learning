@@ -1,4 +1,6 @@
-local function sayHi(name)
+-- Functions
+
+local function say_hi(name)
     print("Hi,", name)
 end
 
@@ -8,13 +10,13 @@ local greet = function (name)
     print("Hello, " .. name .. "!")
 end
 
-sayHi("Athanasios")
+say_hi("Athanasios")
 greet("Lauren")
 
 -- Functions in lua are First-Class objects, which means they can be
 -- passed into other functions as parameters.
 
-local function doSomethingLater(callback)
+local function do_something_later(callback)
     print("Doing something before...")
     callback()
     print("Do something after...")
@@ -24,4 +26,13 @@ local function something()
     print("yo")
 end
 
-doSomethingLater(something)
+do_something_later(something)
+
+-- Returning Multiple Values
+-- Functions can return multiple values.
+
+local function get_values()
+    return 1, 2, 3
+end
+
+local val1, val2, val3 = get_values()

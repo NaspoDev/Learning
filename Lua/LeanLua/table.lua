@@ -2,8 +2,9 @@
 -- It can be used to represent arrays, dictionaries, graphs, trees, and more.
 
 -- Table as a list
-local list = {"apple", "banana", "peach"}
+local list = {"apple", "banana", "peach", 10, false} -- tables can have mixed types
 local first = list[1] -- Lua uses 1-Based indexing!
+local length = #list -- # is the length operator in lua, only works for tables as arrays.
 
 -- Table as a map
 local map = {
