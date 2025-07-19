@@ -13,3 +13,6 @@ local map = {
 }
 local my_key_value = map.my_key
 local special_key_value = map["special key"]
+
+-- You can also define properties on a table on the fly like so:
+map.test = "hello"
